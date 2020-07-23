@@ -79,7 +79,7 @@ done
 
 PREFIX=${PREFIX:-/usr}
 SYSCONFDIR=${SYSCONFDIR:-/etc}
-DATA_SHARE=${DATA_SHARE:-$PREFIX/share/hassio}
+DATA_SHARE=${DATA_SHARE:-/home/mcsinjak/hassio}
 CONFIG=$SYSCONFDIR/hassio.json
 
 # Generate hardware options
